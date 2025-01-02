@@ -66,12 +66,5 @@
 			$("#switch").addClass("switched");
 		}
 	});          
-
-	// Loading animation
-	$(window).on('load', function() {
-		$('#loading-animation').fadeOut('slow', function() {
-			$(this).remove();
-		});
-	});
               
 })(jQuery);
